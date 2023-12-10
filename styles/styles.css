@@ -217,3 +217,22 @@ footer {
     }
 }
 
+.nav-links2 {
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    padding: 20px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color: var(--neutral);
+    padding: 20px;
+    border-radius: 200px;
+    border: 3px solid var(--base-100);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 30px;
+}
